@@ -10,34 +10,38 @@ An API that based on data collection with Python, stored data to JSON.. It's mak
 
 ## Usage/Examples
 
-```python & javascript
-first install dependencies, here i use python & javascript
-```
 
+first install dependencies, here i use python & javascript
+
+Python
 ```usage
-python
 $ pip install -r requirements.txt / pip3 install -r requirements.txt
 ```
-
+Javascript
 ```usage
-javascript
-$ npm i package.json
-
-or u can use yarn
-
-$ yarn install package.json
+$ npm install
 ```
 
 ```usage
-first you have to run python by using
+$ yarn install 
+```
+
+
+First you have to run python, after that run the express (javascript)
+```usage
 $ python main.py 
-(to create an JSON data by Scrapped)
-
-next you run the express
+```
+```usage
 $ npm start
+```
+or
 
+```usage
 $ yarn start
 ```
+
+
+
 
 
 ## API Reference
@@ -45,11 +49,14 @@ $ yarn start
 #### Get all items
 
 ```http
-  GET /api/weather
+  GET /api/items
 ```
 
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
-
+(Dummy)
 
 
 ## Authors
