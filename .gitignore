@@ -1,0 +1,6 @@
+data.json
+node_modules/
+.venv/
+pnpm-lock.yaml
+controllers/
+routes/
